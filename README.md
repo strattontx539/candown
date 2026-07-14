@@ -75,6 +75,4 @@ Deploy and confirm the root page and all files under `assets/` load correctly.
 ## Contact-number reference
 
 - Calls: `(469) 226-8546` / `tel:+14692268546`
-- Texts: `(469) 222-1568` / `sms:+14692221568`
-
-These numbers are intentionally different and should remain separate.
+- Texts: `(469) 226-8546` / `sms:+14692268546`
