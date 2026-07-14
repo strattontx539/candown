@@ -1,6 +1,6 @@
 # Can Down Website
 
-A responsive, single-page static website for Can Down - Trash Can Retrieval Service, serving Rockwall County, Texas. The site uses semantic HTML, plain CSS, and minimal vanilla JavaScript with no build process or package dependencies.
+A responsive, single-page static website for Can Down – Trash Can Retrieval Service, serving Rockwall County, Texas. The site uses semantic HTML, plain CSS, and minimal vanilla JavaScript with no build process or package dependencies.
 
 ## Project structure
 
@@ -46,12 +46,12 @@ The Gmail recipient is intentionally not present in the public form action. Unti
 
 ## Payment setup
 
-In `index.html`, replace:
+The public page displays “Payment details coming soon.” In `index.html`, find the payment setup comment containing:
 
 - `VENMO_USERNAME_NEEDED` with the confirmed Venmo username.
 - `ZELLE_DETAILS_NEEDED` with the confirmed Zelle recipient details.
 
-Keep these values as plain text unless the business supplies and approves direct payment links. The website does not process payments.
+The comment marks the insertion point. When the business is ready, replace the visible “Payment details coming soon” element with confirmed Venmo and Zelle text, then remove the corresponding placeholder tokens from the comment. Do not create links unless the business supplies and approves direct payment URLs. The website does not process payments.
 
 ## Cloudflare Pages deployment
 
